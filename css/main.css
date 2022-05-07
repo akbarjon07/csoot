@@ -573,10 +573,6 @@ img {
   background-position: top 200px left;
 }
 
-.main__opportunity-img {
-  margin-bottom: 40px;
-}
-
 .main__opportunity-list {
   margin: 0;
   padding: 0;
@@ -613,6 +609,32 @@ img {
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
+}
+
+@media only screen and (max-width: 768px) {
+  padding-top: 160px;
+  padding-bottom: 147px;
+  -list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  -item {
+    width: 398px;
+  }
+  -item + -item {
+    margin-top: 30px;
+  }
 }
 
 .main__advantages {
