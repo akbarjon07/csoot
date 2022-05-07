@@ -514,6 +514,56 @@ img {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 768px) {
+  .main__hero {
+    background-image: url(../images/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main__hero-left {
+    padding-top: 137px;
+    padding-bottom: 217px;
+  }
+  .main__hero-heading {
+    width: 573px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main__hero-desc {
+    width: 573px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main__hero-btn {
+    margin-left: 210px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .main__hero {
+    background-image: url(../../images/Bitmapmobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main__hero-left {
+    padding-top: 115px;
+    padding-bottom: 179px;
+  }
+  .main__hero-heading {
+    width: 311px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main__hero-desc {
+    width: 311px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main__hero-btn {
+    margin-left: 0px;
+  }
+}
+
 .main__opportunity {
   padding-top: 160px;
   padding-bottom: 147px;

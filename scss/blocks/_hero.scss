@@ -44,3 +44,64 @@
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+  .main__hero {
+    background-image: url(../images/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-left {
+      padding-top: 137px;
+      padding-bottom: 217px;
+    }
+
+    &-heading {
+      width: 573px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    &-desc {
+      width: 573px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    &-btn {
+      margin-left: 210px;
+    }
+  }
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+  .main__hero {
+    background-image: url(../../images/Bitmapmobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-left {
+      padding-top: 115px;
+      padding-bottom: 179px;
+    }
+
+    &-heading {
+      width: 311px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    &-desc {
+      width: 311px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    &-btn {
+      margin-left: 0px;
+    }
+  }
+}
