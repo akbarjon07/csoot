@@ -1,0 +1,48 @@
+.main__opportunity {
+  padding-top: 160px;
+  padding-bottom: 147px;
+  background-image: url(../../images/Path.svg);
+  background-repeat: no-repeat;
+  background-size: 974px;
+  background-position: top 200px left;
+
+
+
+  &-img {
+    margin-bottom: 40px;
+  }
+
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &-item {
+    width: 350px;
+  }
+
+  &-item + &-item {
+    margin-left: 30px;
+  }
+
+  &-heading {
+    margin: 0;
+    margin-bottom: 27px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+
+  &-desc {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+  }
+}
